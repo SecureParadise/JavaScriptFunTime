@@ -26,5 +26,9 @@ buttons.forEach(function(button) {
             {
                 body.style.backgroundColor = event_Object.target.id
             }
+        if(event_Object.target.id === 'purple')
+            {
+                body.style.backgroundColor = event_Object.target.id
+            }
     })
 })
